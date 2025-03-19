@@ -1,0 +1,369 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CKD Enterprises</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0e7ff; /* Soft light blue background */
+        }
+
+        header {
+            background: #d32f2f; /* Deep red for header */
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .logo-container img {
+            height: 50px;
+            border-radius: 25px;
+        }
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .content {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff; /* White content background */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #d32f2f; /* Matching deep red for headings */
+            text-transform: uppercase;
+            border-bottom: 2px solid #d32f2f;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+            text-transform: uppercase;
+            color: #333333; /* Dark gray text */
+        }
+
+        .owners {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .owner img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+            border: 2px solid #d32f2f; /* Red border for owner images */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #b0bec5; /* Light blue-gray border */
+        }
+
+        th {
+            background: #eceff1; /* Light gray for table headers */
+            color: #d32f2f;
+        }
+
+        td {
+            background-color: #b3e5fc; /* Light cyan for table cells */
+            color: #333333;
+        }
+
+        .marquee-container {
+            margin: 20px 0;
+            overflow: hidden;
+            background: #f5f5f5; /* Light gray marquee background */
+            padding: 10px 0;
+        }
+
+        marquee img {
+            height: 250px; /* Consistent height for marquee images */
+            width: auto;
+            margin: 0 15px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #080808; /* Dark blue-gray footer */
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .footer-content div {
+            margin: 10px;
+            min-width: 250px;
+        }
+
+        .footer-links a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+            color: #ff8a80; /* Soft red hover effect */
+        }
+
+        .order-form {
+            background: #f5f5f5; /* Light gray form background */
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 1px solid #b0bec5;
+        }
+
+        .order-form label {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+
+        .order-form input,
+        .order-form select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #b0bec5;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .order-form button {
+            background: #d32f2f;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .order-form button:hover {
+            background: #b71c1c; /* Darker red on hover */
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="WhatsApp Image 2025-03-13 at 8.42.57 AM.jpeg" alt="CKD Logo">
+            <h1>CKD Enterprises</h1>
+        </div>
+    </header>
+
+    <div class="marquee-container">
+        <marquee>
+            <img src="19be0985-f9a1-444e-82e2-350ff8ec9970.jpg" alt="Marquee Image 1">
+            <img src="bf54a32a-0305-4e5b-906b-d92ea529b21d.jpg" alt="Marquee Image 2">
+            <img src="5739771e-f363-4038-8659-5fc93dfb8dc0.jpg" alt="Marquee Image 3">
+            <img src="b93bcb9f-5e1b-432d-95fe-1b0d74bef31b.jpg" alt="Marquee Image 4">
+            <img src="671e077b-e02b-4111-a42c-f1aa051b9878.jpg" alt="Marquee Image 5">
+            <img src="c2c477a8-6cea-4203-9414-759131a1af12.jpg" alt="Marquee Image 6">
+        </marquee>
+    </div>
+
+    <section class="content">
+        <div class="owners">
+            <div class="owner">
+                <img src="WhatsApp Image 2025-03-12 at 11.44.53 PM.jpeg" alt="Founder">
+                <p>Ratneshwar Mishra <br> Founder</p>
+            </div>
+            <div class="owner">
+                <img src="WhatsApp Image 2025-03-12 at 11.59.38 PM.jpeg" alt="Owner">
+                <p>Mukel Mishra <br>C.E.O</p>
+            </div>
+            <div class="owner">
+                <img src="WhatsApp Image 2025-03-12 at 11.59.39 PM.jpeg" alt="Proprietor">
+                <p>Birendra Mishra <br>Proprietorship</p>
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>Our History</h2>
+            <p>The CKD Enterprises was founded by Shri Ratneshwar Mishra elder son of Shri Birendra Mishra in 2020 under proprietorship of Shri Briendra Mishra. The firm started with help of working partner shri Amar Kumar Verma with rental land at Sunder Nagar, Lions Club Eye Hospital Road, Chirkunda, Dhanbad, Jharkhand 828202. The firm get registered with GST No. 20AVMPM5405E1ZZ dated 28/12/2020 and MSME UDYAM-JH-04-0002954 Dated 28/12/2020. The Firm shifted to the proprietor land at Sunder Nagar, Lions Club Eye Hospital Road, (Near sundarnagar burn ghat FSTP Sundarnagar, Chirkunda, Dhanbad, Jharkhand 828202 in 2021.</p>
+        </div>
+
+        <div class="what-we-do">
+            <h2>What We Do</h2>
+            <p>Now the CKD Enterprises run by Shri Mukul Kumar Mishra younger son on Shri Birendra Mishra. The plant is manufacturing of RCC precast boundary wall and working to supply & Quick Erction work of precast boundary wall, fancying of land material, Readymade Rooms and Garage etc with durability guaranteed work without any stress of customers. No any material is required from customers all erction material transportation, labour are arrange by firm by own level. Cheap, beautiful and strong durability product is our moto. The Plant awarded an ISO 9001:2015 on 05/12/2023. The firm is working in Jharkhand, West Bengal and Bihar state.</p>
+
+            <h2>Career</h2>
+            <p>GROW YOUR WELTH TO GET FRANCHISE WITH US
+                GROW YOUR WELTH WITH COMMISSION AGENT.
+                PLANT WORKER WITH SKILL DEVLOPMENT.
+                DRIVER WITH PLANT CARETAKER
+                SIDE/WALL ERCTION WORK.</p>
+
+            <h2>Contact Us</h2>
+            <p>📞 +91-7903560067 | +91-7618035065 | +91-9470306924 <br>
+                ✉️ Email: ckdenterprises333@gmail.com</p>
+
+            <h2>Our Motto</h2>
+            <p>CHEAP, BEAUTIFUL AND STRONG DURABILITY PRODUCT IS OUR MOTO.
+                NO ANY MATERIAL IS REQUIRED FROM CUSTOMERS ALL ERCTION MATERIAL, TRANSPORTATION, LABOURS ARRANGEMENT BY OWN LEVEL.“ STRESSFREE CUSTOMERS”</p>
+        </div>
+
+        <h2>Product Inventory</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>PATEIA</th>
+                    <th>PILLAR</th>
+                    <th>FENCING POLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>45MM x 6FEET=BISCUITS DESIGN</td>
+                    <td>6 X 6 INCH X 7 FEET FOR 5 FEET HEIGHT WALL</td>
+                    <td>4 X 4 INCH X 2 FEET RECTANGLE SHAPE</td>
+                </tr>
+                <tr>
+                    <td>45MM x 6FEET=BARFI DESING</td>
+                    <td>6 X 6 INCH X 8 FEET FOR 6 FEET HEIGHT WALL</td>
+                    <td>4 X 4 INCH X 3.5 FEET RECTANGLE SHAPE</td>
+                </tr>
+                <tr>
+                    <td>45MM x 6FEET=FLOWER DESIGN</td>
+                    <td>6 X 6 INCH X 9 FEET FOR 7 FEET HEIGHT WALL</td>
+                    <td>4 X 4 INCH X 7 FEET RECTANGLE SHAPE</td>
+                </tr>
+                <tr>
+                    <td>50MM x 6FEET=PLAIN DESIGN</td>
+                    <td>6 X 6 INCH X 10 FEET FOR 8 FEET HEIGHT WALL</td>
+                    <td>4 X 4 TOP,6 X 6 BUTTOM 7 FEET PYRAMID SHAPE</td>
+                </tr>
+                <tr>
+                    <td>45MM x 6FEET FLOWER AND SAMOSA DESIGN MUKUT</td>
+                    <td>6 X 6 INCH X 12 FEET FOR 10 FEET HEIGHT WALL</td>
+                    <td>ALL ITEM AS PER YOUR DEMAND ALSO MANUFACTURED</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Place an Order</h2>
+        <form class="order-form">
+            <label>Select Product:</label>
+            <select id="product" onchange="updateInputFields()">
+                <option value="BOUNDRY WALL">BOUNDRY WALL</option>
+                <option value="FANCING POLL">FANCING POLL</option>
+            </select>
+
+            <div id="dynamic-fields">
+                <!-- Dynamic fields will be injected here by JavaScript -->
+            </div>
+
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label>Phone:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+
+            <label>Address:</label>
+            <input type="text" id="address" placeholder="Enter your address">
+
+            <button type="button" onclick="placeOrder()">Order Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 CKD Enterprises. All rights reserved.</p>
+        <p>Contact: +91-7903560067 | Email: ckdenterprises333@gmail.com</p>
+        <p>Visit us at: <a href="#">www.ckdenterprises.com</a></p>
+        <P>MADE BY GAURAV</P>
+    </footer>
+
+    <script>
+        function updateInputFields() {
+            const product = document.getElementById("product").value;
+            const dynamicFieldsDiv = document.getElementById("dynamic-fields");
+            
+            dynamicFieldsDiv.innerHTML = '';
+
+            if (product === "FANCING POLL") {
+                dynamicFieldsDiv.innerHTML = `
+                    <label>Quantity:</label>
+                    <input type="number" id="quantity" placeholder="QUANTITY" min="1">
+                    <label>Height:</label>
+                    <input type="number" id="height" placeholder="HEIGHT" min="1">
+                `;
+            } else if (product === "BOUNDRY WALL") {
+                dynamicFieldsDiv.innerHTML = `
+                    <label>Feet:</label>
+                    <input type="number" id="quantity" placeholder="FEET" min="1">
+                    <label>Height:</label>
+                    <input type="number" id="height" placeholder="HEIGHT" min="1">
+                `;
+            }
+        }
+
+        window.onload = updateInputFields;
+
+        function placeOrder() {
+            let product = document.getElementById("product").value;
+            let quantity = document.getElementById("quantity").value;
+            let height = document.getElementById("height").value;
+            let name = document.getElementById("name").value;
+            let phone = document.getElementById("phone").value;
+            let address = document.getElementById("address").value;
+
+            if (!product || !quantity || !height || !name || !phone || !address) {
+                alert("Please fill all fields before placing an order.");
+                return;
+            }
+
+            let message = `Order Details:Product: ${product}Quantity: ${quantity}Height: ${height}Customer Info:Name: ${name}Phone: ${phone}Address: ${address}`;
+            let whatsappURL = `https://wa.me/917903560067?text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, "_blank");
+        }
+    </script>
+</body>
+
+</html>
